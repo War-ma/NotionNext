@@ -309,11 +309,11 @@ const BLOG = {
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
     {
-      name: '中间人',
+      name: '国际歌',
       artist: 'Falcom Sound Team jdk',
-      url: 'https://m704.music.126.net/20240818222210/89c75c148d3bb50777ab21f075250ea2/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/28481678052/a3ad/52bc/4c99/5b437d981f8b98f6a8b077c07aab6e79.mp3',
+      url: 'https://m801.music.126.net/20240819122500/b5a7de0ea612bd0d4d63ce221a89419b/jdyyaac/0e53/515c/075a/9940379dc4f690765f7d00ab59a89d76.m4a',
       cover:
-        'https://p2.music.126.net/VxjFHwt1cyJ-BMGf9jQ9Lw==/109951167894828101.jpg'
+        'https://p2.music.126.net/_lAvi41IfmPhw73Mxq2b8g==/19061133579368888.jpg'
     },
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
